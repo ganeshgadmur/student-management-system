@@ -33,6 +33,7 @@ public class SecurityConfig {
                 .clearAuthentication(true)
                 .permitAll()
             );
+        
 
         http.csrf(csrf -> csrf.disable());
 
